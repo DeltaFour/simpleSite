@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+body{
+    box-sizing: border-box;
+    background-color: hsl(30, 54%, 90%);
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+
+}
+.site img{
+    border-radius: 5%;
+    margin: 0 0;
+    padding: 0%;
+    
+}
+.site{
+    margin: 10% 10%;
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+   background-color: white;
+   border-radius: 5%;
+   width: 700px;
+   box-sizing: border-box;
+   align-items: stretch;
+   height:auto;
+   padding: 2.5%;
+}
+
+.tituloUm{
+    font-family: "Outfit",serif;
+    font-size: 40px;
+    font-weight: 700;
+    color:hsl(30, 4%, 9%)
+
+
+}
+.textoUm{
+  font-family:"Outfit",serif ;
+  font-size: 16px;
+  font-weight: 400;
+  color: -  hsl(24, 5%, 18%)
+}
+
+.caixaPreparation{
+    background-color: hsl(330, 100%, 98%);
+}
+.preparationTime{
+   color: hsl(332, 51%, 32%);
+   font-size: 20px;
+   padding-left: 2.5%;
+   padding-bottom: 0%;
+   padding-top: 2.5%;
+   margin-bottom: 2.5%;
+   margin: 0%;
+   font-family:"Outfit",serif;
+}
+
+.preparationTimeText{
+    color: hsl(24, 5%, 18%);
+    font-family:"Outfit",serif;
+    padding-bottom: 0%;
+    margin: 2.5%;
+}
+
+.negrito{
+    font-weight: 600;
+}
+.subtitulo{
+    color:hsl(14, 45%, 36%) ;
+    font-family:"Outfit",serif;
+
+}
+
+.texto{
+    font-family:"Outfit",serif ;
+    font-size: 16px;
+    color: hsl(24, 5%, 18%);
+}
+
+.tabela{
+    font-family:"Outfit",serif ;
+    font-size: 14px;
+    width: 100%;
+    border-collapse: collapse;
+    padding: 2.5%;
+     
+}
+.tabela th{
+    color: hsl(24, 5%, 18%);
+    font-weight: 400;
+    text-align: left;
+
+}
+
+td{
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+th,
+td {
+  border-bottom: 1px solid rgb(160 160 160);
+}
+
+ol li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+.linhaInstructions{
+   border-top: 1px solid rgb(160 160 160);
+  border-bottom: 1px solid rgb(160 160 160);
+}
+.attribution{
+    font-size: 20px;
+}
+.textoNutrition{
+    font-family:"Outfit",serif ;
+    font-size: 16px;
+    color: hsl(24, 5%, 18%);
+    padding: 2.5%;
+}
